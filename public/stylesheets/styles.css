@@ -32,7 +32,7 @@ footer{
 
 footer p{
     color: white;
-    padding: 20px 0px;
+    padding: 20px 0 20px 30px;
 }
 
 .container {
@@ -40,6 +40,8 @@ footer p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+    margin-left: 30px;
 }
 
 .container1 {
@@ -47,10 +49,13 @@ footer p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin: 50px 0 50px 0
 }
 
 #beer {
     margin: 40px;
+    padding-left: 50px;
     width: 280px;
 }
 
@@ -70,4 +75,14 @@ button a {
 
 .tagline {
     color: #bfbfbf;
+}
+
+#random-beer {
+    margin: 50px 0 50px 70px;
+}
+
+#random-beer div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
