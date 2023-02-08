@@ -6,6 +6,13 @@
         <p>{{tagline}}</p>
         <p>{{description}}</p> --}}
         {{>beerpartial this}}
+        <div>
+            <h3>Food pairing</h3>
+                {{#each food_pairing}}
+                    <li>{{this}}</li>
+                {{/each}}
+            <p><b>Brewers tips:</b> {{brewers_tips}}</p>
+        </div>
     {{/each}}
 
 </div>
